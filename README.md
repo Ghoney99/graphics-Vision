@@ -41,17 +41,17 @@ pip install opencv-python pillow
 
 1. 저장소 클론:
    ```bash
-   git clone https://github.com/yourusername/image-filtering-app.git
+   git clone https://github.com/Ghoney99/graphics-Vision.git
    ```
 
 2. 프로젝트 디렉토리로 이동:
    ```bash
-   cd image-filtering-app
+   cd graphics-Vision
    ```
 
-3. 스크립트 실행:
+3. ComputerVison_CVFilter.py 스크립트 실행:
    ```bash
-   python main.py
+   python ComputerVison_CVFilter.py
    ```
 
 ## 💻 사용 방법
@@ -64,32 +64,14 @@ pip install opencv-python pillow
 
 ## 📸 필터 예시
 
-### 평균 필터
-![평균 필터](path/to/mean_filter_example.jpg)
+### Mean 필터
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FOfcxI%2FbtsI03eSh4Y%2FQz1srskCyFDr1kKFmaE1MK%2Fimg.png" alt="Mean" width="800"/>
 
-### 중간값 필터
-![중간값 필터](path/to/median_filter_example.jpg)
+### Median 필터
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbSEP6Z%2FbtsI0B4hqRj%2F8NmpP4KV861xCQH55Z2Ack%2Fimg.png" alt="Median" width="800"/>
 
-### 라플라시안 필터
-![라플라시안 필터](path/to/laplacian_filter_example.jpg)
+### Laplacian 필터
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F03VZq%2FbtsI021j5FW%2FFZKoMD9I7UFyer8CpAeOg1%2Fimg.png" alt="Laplacian" width="800"/>
 
-### 중간값 + 라플라시안 필터
-![중간값 + 라플라시안 필터](path/to/median_laplacian_filter_example.jpg)
-
-## 🤝 기여하기
-
-기여, 이슈, 기능 요청은 언제나 환영합니다! [이슈 페이지](https://github.com/yourusername/image-filtering-app/issues)를 확인해 주세요.
-
-## 📄 라이센스
-
-이 프로젝트는 [MIT](https://choosealicense.com/licenses/mit/) 라이센스를 따릅니다.
-
-## 👤 작성자
-
-**장지헌**
-
-- Github: [@yourusername](https://github.com/yourusername)
-
----
-
-이 프로젝트가 도움이 되었다면 별표(⭐)를 눌러주세요!
+### Median + Laplacian 필터
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FAn5HK%2FbtsI1gkITYg%2FCVHKBc2Wh4ZlRbPqq8IKrK%2Fimg.png" alt="Median + Laplacian" width="800"/>
